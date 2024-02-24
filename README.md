@@ -1,13 +1,18 @@
 Individual Project1: Extracted the first 250 unique listing URLs from free section of Craigslist San Francisco Bay Area website. Saved each HTML content to a separate file on disk. 
 Read each of the saved HTML files from the disk. Extracted and printed the following details:
 Title: The title of the listing.
-URL of first image (if an image exists):  The URL of the displayed image. 
+
+URL of first image (if an image exists):  The URL of the displayed image.
+
 Description: The full description text of the listing.
+
 Post ID: Usually found at the bottom of the page or within the page's HTML structure.
+
 Posted Date: The date when the listing was originally posted.
+
 Last Updated Date: The date when the listing was last updated.
 
-Next, Automate the process of logging into https://theoldreader.com
+Automated the process of logging into https://theoldreader.com
 Simulated the login process using Python and appropriate libraries like requests. Created a session object to maintain your login state across multiple requests.
 Prepared a payload with login credentials and other necessary form data identified from the login page and the network analysis.
 Sent a POST request to the login form’s action URL to log in, using the session object.
