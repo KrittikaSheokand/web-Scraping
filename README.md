@@ -1,7 +1,7 @@
-Individual Project1: Extract the first 250 unique listing URLs from free section of Craigslist San Francisco Bay Area website. Save each HTML content to a separate file on disk. 
-Read each of the saved HTML files from the disk. Extract and print the following details:
+Individual Project1: Extracted the first 250 unique listing URLs from free section of Craigslist San Francisco Bay Area website. Saved each HTML content to a separate file on disk. 
+Read each of the saved HTML files from the disk. Extracted and printed the following details:
 Title: The title of the listing.
-URL of first image (if an image exists):  The URL of the displayed image.  It can be found in the `src` attribute of `<img>`
+URL of first image (if an image exists):  The URL of the displayed image. 
 Description: The full description text of the listing.
 Post ID: Usually found at the bottom of the page or within the page's HTML structure.
 Posted Date: The date when the listing was originally posted.
